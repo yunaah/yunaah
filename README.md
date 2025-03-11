@@ -12,7 +12,7 @@ Hi there! I'm Yuna Dhuha👋
 - Random thoughts and my learning journey ✨  
 
 ## 🌍 Connect with Me 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-YourName-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yuna-dhuha)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-yuna-dhuha-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yuna-dhuha)  
 
 ---
 
