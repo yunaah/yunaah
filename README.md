@@ -1,11 +1,30 @@
-## Hi there 👋
+# 🌸 Welcome to My Digital Space! 🌸
 
+---
 
-**yunaah/yunaah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Hi there! I'm Yuna Dhuha👋  
 
-Here are some ideas to get you started:
+📚 Book Enthusiast | Aspiring Data Analyst | IT Student 
+✨ Passionate about reading, writing, and tech!  
 
-- 🔭 I’m currently studying on Universitas Sumatera Utara
-- 🌱 I’m currently learning AI and Data
-- 😄 Pronouns: she/her
-- ⚡ Fun fact: I don't know why I'm here
+## 📖 What You’ll Find Here
+- Projects I’m working on 💻  
+- Random thoughts and my learning journey ✨  
+
+## 🌍 Connect with Me 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-YourName-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yuna-dhuha)  
+
+---
+
+# Tech STaCK
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</p>
+
+---
+
+> "Every code need to be run, every story deserves to be told, and every journey has its meaning."
+
+Thanks for stopping by! 🚀
