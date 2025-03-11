@@ -1,34 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-family: 'Playfair Display', serif;
     text-align: center;
-    background: #f4f4f4;
+    color: rgb(0, 0, 0);
+    background: url("asset/back.png") no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInUp 0.8s ease-out forwards;
 }
 
-header {
-    background: #007bff;
-    color: white;
-    padding: 40px 20px;
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-section {
-    padding: 40px 20px;
+/* Animasi keluar */
+@keyframes fadeOutUp {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
 }
 
-.project-card {
-    background: white;
-    padding: 20px;
-    margin: 10px auto;
-    width: 80%;
-    max-width: 400px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+/* Teks Awal */
+.hero {
+    padding: 30px;
+    border-radius: 15px;
 }
 
+.title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle a {
+    text-decoration: underline;
+    color: inherit;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.subtitle a:hover {
+    color: #00000039;
+}
+
+/* Footer */
 footer {
-    background: #222;
-    color: white;
-    padding: 10px;
-    margin-top: 20px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.373);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Story 1 */
+
+.one-bg {
+    background: url("asset/one.png") no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 50px;
+    align-items: flex-start; 
+    color: white; 
+    overflow: hidden;
+}
+
+.content {
+    max-width: 600px;
+}
+
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* Story 2 */
+
+.two-bg {
+    background: url("asset/two.png") no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    color: black;
+    overflow: hidden;
+}
+
+/* Chat container */
+.chat-container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Bubble chat */
+.chat-bubble {
+    font-family: 'Merriweather', serif;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    max-width: 70%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    
+}
+
+.chat-bubble.left {
+    align-self: flex-start;
+    background: #d1e7ff; 
+    border-bottom-left-radius: 0;
+}
+
+.chat-bubble.right {
+    align-self: flex-end;
+    background: #ffdecb;
+    border-bottom-right-radius: 0;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+/* Story 3 */
+
+.three-bg {
+    background: url("asset/three.png") no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    color: black;
+    overflow: hidden;
 }
